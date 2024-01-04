@@ -1,0 +1,48 @@
+body {
+    background-color: #657fa7;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #c78ce0 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;  
+    width: 600px;
+    overflow: hidden;
+    padding: 100px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+label {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.question {
+    padding: 30px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #af58d4; 
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+#result {
+    margin: auto;
+    margin-top: 10px;
+}
+
+#try {
+    display: none;
+}

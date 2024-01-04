@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <form>
+            <div class="question">
+                <label>Question 1: What is 3 plus 4?</label>
+                <input type="radio" name="question1">5
+                <input type="radio" name="question1">8
+                <input type="radio" name="question1">9
+                <input type="radio" name="question1" id="ans1">7
+            </div>
+
+            <div class="question">
+                <label>Question 2: What is 11 plus 7?</label>
+                <input type="radio" name="question2">13
+                <input type="radio" name="question2">21
+                <input type="radio" name="question2" id="ans2">18
+                <input type="radio" name="question2">17
+            </div>
+
+            <div class="question">
+                <label>Question 3: What is 13 minus 4?</label>
+                <input type="radio" name="question3" id="ans3">9
+                <input type="radio" name="question3">8
+                <input type="radio" name="question3">10
+                <input type="radio" name="question3">7
+            </div>
+
+            <div class="question">
+                <label>Question 4: What is 33 minus 7?</label>
+                <input type="radio" name="question4">32
+                <input type="radio" name="question4">27
+                <input type="radio" name="question4" id="ans4">26
+                <input type="radio" name="question4">23
+            </div>
+
+            <div class="question">
+                <label>Question 5: What is 15 minus 0?</label>
+                <input type="radio" name="question5">0
+                <input type="radio" name="question5" id="ans5">15
+                <input type="radio" name="question5">14
+                <input type="radio" name="question5">10
+            </div>
+            <button type="submit" class="btn">Finish the Quiz!</button>
+            <p id="result"></p>
+            <button id="try" class="btn">Try again</button>
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
